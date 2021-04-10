@@ -1,0 +1,18 @@
+body{
+	background: #1E1E1E;
+	color:#fff;
+}
+
+a{
+	text-decoration: none;
+	color:#df1313 !important;
+}
+
+div{
+	display: grid;
+	place-items: center;
+}
+
+hr { 
+	border-left: none;
+} 
