@@ -1,18 +1,42 @@
-body{
-	background: #1E1E1E;
-	color:#fff;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-	text-decoration: none;
-	color:#df1313 !important;
+body {
+  background: #1e1e1e;
+  color: #fff;
 }
 
-div{
-	display: grid;
-	place-items: center;
+a {
+  color: #fff !important;
+  text-decoration: none;
 }
 
-hr { 
-	border-left: none;
-} 
+.submit {
+  margin-left: 40px;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+div {
+  display: grid;
+  place-items: center;
+}
+
+hr {
+  border-left: none;
+}
+
+.but {
+  font-size: 13px;
+  letter-spacing: 2px;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
