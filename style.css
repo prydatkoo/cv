@@ -7,13 +7,17 @@ body {
   color: #fff;
 }
 
+.my_img {
+  width: 200px;
+  height: 200px;
+}
+
 a {
-  color: #fff !important;
+  color: #fff;
   text-decoration: none;
 }
 
 .submit {
-  margin-left: 40px;
   color: #fff;
   font-size: 13px;
   letter-spacing: 2px;
@@ -23,13 +27,29 @@ a {
   padding: 10px;
 }
 
-div {
+.table_img {
   display: grid;
   place-items: center;
 }
 
-hr {
-  border-left: none;
+.schools {
+  display: grid;
+  place-items: center;
+}
+
+.skills {
+  display: grid;
+  place-items: center;
+}
+
+.contact_me {
+  display: grid;
+  place-items: center;
+}
+
+form {
+  display: grid;
+  place-items: center;
 }
 
 .but {
@@ -39,4 +59,19 @@ hr {
   border: none;
   border-radius: 5px;
   padding: 10px;
+}
+
+.topnav {
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right !important ;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #575a57;
 }
