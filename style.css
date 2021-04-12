@@ -8,6 +8,7 @@ body {
 }
 
 .my_img {
+	border-radius: 50%;
 	width: 200px;
 	height: 200px;
 }
@@ -74,4 +75,11 @@ form {
 
 .topnav a:hover {
 	background-color: #575a57;
+}
+
+hr {
+	border-style: dotted none none;
+	border-width: 10px;
+	width: 70px;
+	color: #575a57
 }
