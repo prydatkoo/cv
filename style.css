@@ -28,6 +28,11 @@ a {
 	padding: 10px;
 }
 
+.submit:hover{
+	background-color: #575a57;
+	padding:12px;
+}
+
 .table_img {
 	display: grid;
 	place-items: center;
@@ -48,7 +53,7 @@ a {
 	place-items: center;
 }
 
-form {
+.form1 {
 	display: grid;
 	place-items: center;
 }
@@ -60,6 +65,11 @@ form {
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
+}
+
+.but:hover{
+	background-color: #575a57;
+	padding:12px;
 }
 
 .topnav {
